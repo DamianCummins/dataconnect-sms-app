@@ -17,7 +17,7 @@ var password = dwService.credentials.password;
 console.log(url);
 
 //var port = process.env.PORT || 3030;
-var port = 3030;
+var port = (process.env.PORT || 3030);
 
 // API ROUTES
 // =========================================================================
