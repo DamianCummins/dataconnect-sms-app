@@ -1,6 +1,6 @@
 # IBM Data Connect SMS Application Node.js example
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/DamianCummins/dataconnect-smsapp)
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/DamianCummins/dataconnect-sms-app)
 
 This example node.js application exposes a single API route /api/runActivity/<activityId>
 
