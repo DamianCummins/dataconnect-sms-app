@@ -1,0 +1,15 @@
+declared-services:
+  DataWorks_Gen3:
+    label: DataWorks_Gen3
+    plan: Starter-GA
+
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: DataConnectSmsApp
+  host: dataconnect-smsapp
+  disk_quota: 1024M
+  services:
+    - DataWorks_Gen3
